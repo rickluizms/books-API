@@ -3,7 +3,6 @@ const morgan = require('morgan')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 
-
 const app = express()
 
 app.use(morgan('dev'))
@@ -22,8 +21,6 @@ let books = [
 app.get('/', (req, res) => {
     return res.json(books)
 })
-
-
 
 app.listen(21262, () => {
     console.log(`Express started at http://localhost:21262`)
