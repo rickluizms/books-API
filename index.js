@@ -19,7 +19,6 @@ let books = [
     { "5": { Name: "Book5", Price: 15, Quantity: 5, Category: "action", Img: "img5" }}
 ]
 
-// Buscar livros
 app.get('/', (req, res) => {
     return res.json(books)
 })
