@@ -4,4 +4,4 @@
 
 ### No projeto a professora ultiliza uma API propria, e eu decidi desenvolver uma eu mesmo para fixar melhor o conhecimento. 
 
-#### Ultilizei Javascript, e Node.js
+
